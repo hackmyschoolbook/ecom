@@ -1,6 +1,6 @@
 import React from 'react'
 import { Menu } from 'antd';
-import { NodeCollapseOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import { NodeCollapseOutlined, AppstoreOutlined } from '@ant-design/icons';
 import { Link,Outlet } from 'react-router-dom';
 
 const { SubMenu } = Menu;

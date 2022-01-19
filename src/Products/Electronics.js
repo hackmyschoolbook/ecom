@@ -7,10 +7,10 @@ import mobile from './assets/mobile.jpeg'
 import watch from './assets/watch.jpeg'
 import speaker from './assets/speaker.jpeg'
 import tv from './assets/tv.jpeg'
-import { Menu, Dropdown } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
 
-const { SubMenu } = Menu;
+
+
+
 function Electronics() {
  
     const [show, setShow] = React.useState(true);

@@ -1,6 +1,6 @@
 import React from 'react'
 import happy from './assets/happy.svg'
-import { Card, Rate, Tag,Badge, Button } from 'antd'
+import { Card, Rate,Badge, Button } from 'antd'
 import mixer from './assets/mixer.jpeg'
 import Meta from 'antd/lib/card/Meta';
 import stove from './assets/stove.jpeg'
@@ -12,7 +12,7 @@ function Appliances() {
             <div className="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src={happy} width={400}/>
+                        <img src={happy} alt="s" width={400}/>
                     </div>
                     <div class="col-md-6">
                         <h1 class="ff text-center text-success" style={{fontSize:80}}>HOME APPLIANCES SUITS HERE</h1>

@@ -1,10 +1,9 @@
 import React from 'react'
-import bg from './assets/gbg.jpg'
 import paneer from './assets/paneer.jpg'
 import yum from './assets/yum.jpg'
 import chips from './assets/chips.jpg'
 import dall from './assets/dall.jpg'
-import { Card, Rate, Tag,Badge, Button } from 'antd'
+import { Card, Rate,Badge, Button } from 'antd'
 import tea from './assets/tea.jpg'
 import wheat from './assets/wheat.jpg'
 import grocery from './assets/grocery.svg'
@@ -18,7 +17,7 @@ function Grocery() {
           <div class="container">
               <div  class="row">
                   <div class="col-md-6">
-<img src={grocery} width="100%"/>
+<img src={grocery} alt=""width="100%"/>
 
                   </div>
                     <div class="col-md-6">
